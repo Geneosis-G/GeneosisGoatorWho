@@ -1,0 +1,55 @@
+Definitely a mad goat with a box!
+
+They call him, the Goator... Mysterious creature of an anciant race, travelling through space and time in a big blue box, nobody know who he really is but everywhere he goes they remember him. 
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- Goator Who: You have a sonic screwdriver and a TARDIS.
+
+[b]KEYBOARD CONTROLS[/b]
+- [b][R]:[/b] Hold to repair nearby objects.
+- [b][R]:[/b] Press to enter the TARDIS.
+- [b][1]:[/b] Hold when ragdoll to call your TARDIS.
+[h1]Driving TARDIS[/h1]
+- [b][E]:[/b] Hold to transport the tardis to the pointed location.
+- [b][RagdollKey]:[/b] Hold to travel to another map.
+- [b][R]:[/b] Leave the TARDIS.
+
+[b]GAMEPAD CONTROLS[/b]
+- [b][Y]:[/b] Hold to repair nearby objects.
+- [b][Y]:[/b] Press to enter the TARDIS.
+- [b][LB]:[/b] Hold when ragdoll to call your TARDIS.
+[h1]Driving TARDIS[/h1]
+- [b][noparse][B][/noparse]:[/b] Hold to transport the tardis to the pointed location.
+- [b][X]:[/b] Hold to travel to another map.
+- [b][Y]:[/b] Leave the TARDIS.
+
+[b]CHARACTERISTICS[/b]
+- The sonic screwdriver can repair broken items and exploded items.
+- Only the owner of a TARDIS can drive it.
+- When the owner is driving his TARDIS then other players can enter it as passengers.
+- Nobody can enter or leave a TARDIS during transport.
+- You can only travel to the maps you own (eg: if you don't have GoatZ you will never reach the GoatZ map).
+- When travelling to another map, you can reach any map available on your machine (including modded maps and "secret" maps like the Launchpad map).
+
+[b]EASTER EGGS[/b]
+- [spoiler]When you change map using the TARDIS, your game mode will remain the one you had on the very first map.[/spoiler]
+- [spoiler]If you entered a map using the TARDIS, you may encounter a few Weeping Angels after some time :p[/spoiler][spoiler]If a Weeping Angel catch you, you will be transported to a random map.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Repairing items can rarely fail.
+- The TARDIS sound and/or animation may fail to play correctly when entering a new map.
+- The TARDIS may end up floating near the ground or be partially stuck inside structures.
+- When a moving item collide with a TARDIS, the TARDIS may glitch a bit, but it will go back to its location almost immediately.
+- Sometimes the TARDIS transport can fail and you will simply end at the exact same location you were before.
+- When entering a new map with the TARDIS, you can rarely end up in a glitchy location (stuck inside building). Travel again to fix.
+- If you change map with the TARDIS and without it (tunnel, portal, etc...) multiple times then the game may break and send you back to the main menu.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]This is a mod I refused first, because the request was a bout time travel and sadly there is no way to do that in this game as far as I know :/ Anyway a couple more ideas have been suggested on the request thread later and some of them were fitting perfectly with a "Doctor Who" themed mod, and that's how that mod came about ^^
+So first things first: the ability to repair items. This one was part easy and part tricky. For some items all I had to do was to store how they looked like before exploding, and for others I had to determine if a broken item was previously a movable item (barrel) or a static one (fence) in order to be able to restore them correctly later :) The Payday cars were the hardest part because they have their own destruction system and I had to hack a little into it to avoid that cars will repair on their own (that's their default behaviour) >_<
+Then came the TARDIS :D I was thinking about using that blue box I saw on several maps for a long time now, and the first thing I tried to do was to use that box as a model on my UFO vehicle. This was not working as good as expected because the structure of the box model is different of the structure of the UFO model... Which means I couldn't replace the UFO model by the box model, but I was still able to make the UFO invisible and stick the box to it :p Anyway the main problem with this setup is that the physics is not working fine at all on that vehicle, that's why I came up with the teleportation system to make it possible to move it in the map.
+When that was working as good as possible, I started making the "time travel" feature, which is actually a map travel ^^ That part worked exactly the way I imagined it, so it was done pretty fast. Basically it's using a console command of the game that let you change map, and send it the correct parameters to reach one of the maps available on the computer of the player :)
+Finally since the first time I saw that "cow guy" on the Payday map that keep teleporting around and out of sight, I thought that I must use that somewhere to create an enemy :p And hopefully the Doctor Who series have the perfect candidate for that: Weeping Angels :D Sadly the way they move is a bit easy to avoid once you understood it, so I won't give much infos about that, but the surprise effect work pretty well I think. Oh and of course if one of them catch you, as there is no real time travel in this game, they are using the only alternative I found and used alreayd in this mod ;)
+[/quote]
